@@ -1,4 +1,4 @@
-# Aplikacja stworzona w ramach pracy Inżynierskiej oraz Magisterskiej
+# Aplikacja stworzona oraz rozwinięta w ramach pracy Inżynierskiej oraz Magisterskiej
 
 
 
