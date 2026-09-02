@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="mainPane" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+    <top>
+        <HBox alignment="CENTER" prefHeight="45.0" prefWidth="578.0" spacing="10.0" HBox.hgrow="ALWAYS">
+            <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#changeToFiltering" text="Filtering" HBox.hgrow="ALWAYS" />
+            <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#changeToProcessing" text="Processing" HBox.hgrow="ALWAYS" />
+            <Button disable="true" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#changeToAnalyzing" text="Analyzing" HBox.hgrow="ALWAYS" />
+            <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#changeToCalculating" text="Calculating" HBox.hgrow="ALWAYS" />
+            <Button fx:id="exitButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#exitApplication" text="Exit" HBox.hgrow="ALWAYS" />
+         <BorderPane.margin>
+            <Insets left="20.0" right="20.0" />
+         </BorderPane.margin>
+        </HBox>
+    </top>
+    <center>
+        <fx:include fx:id="contentPane" source="filteringScene.fxml" />
+    </center>
+    <bottom>
+        <VBox>
+    		<Label fx:id="consoleLabel" text="Console">
+            <VBox.margin>
+               <Insets />
+            </VBox.margin></Label>
+    		<TextArea fx:id="consoleTextArea" editable="false" prefHeight="150.0" prefWidth="562.0">
+            <opaqueInsets>
+               <Insets />
+            </opaqueInsets>
+            <VBox.margin>
+               <Insets />
+            </VBox.margin></TextArea>
+            <Label alignment="CENTER" contentDisplay="CENTER" maxWidth="1.7976931348623157E308" text="Adrian Budny MUI1 - Praca Magisterska" textAlignment="CENTER">
+            <VBox.margin>
+               <Insets top="15.0" />
+            </VBox.margin></Label>
+         <BorderPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" />
+         </BorderPane.margin>
+		</VBox>
+    </bottom>
+</BorderPane>

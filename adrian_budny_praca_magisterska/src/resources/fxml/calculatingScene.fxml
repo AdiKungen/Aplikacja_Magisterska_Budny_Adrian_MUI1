@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="scenePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="275.0" prefWidth="595.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CalculatingController">
+   <children>
+      <Label layoutY="23.0" prefHeight="17.0" prefWidth="595.0" text="Calculate time dependency vectors" />
+      <Button layoutX="428.0" layoutY="214.0" mnemonicParsing="false" onAction="#submit" prefHeight="25.0" prefWidth="100.0" text="Calculate" />
+      <TextField fx:id="directoryTextField" editable="false" layoutX="57.0" layoutY="91.0" prefHeight="25.0" prefWidth="395.0" />
+      <Button layoutX="463.0" layoutY="91.0" mnemonicParsing="false" onAction="#chooseDir" prefHeight="25.0" prefWidth="100.0" text="Choose" />
+      <Label fx:id="chooseLabel" layoutX="57.0" layoutY="68.0" prefHeight="17.0" prefWidth="395.0" text="Directory from which you want to calculate vectors" />
+      <RadioButton fx:id="radButtAll" layoutX="57.0" layoutY="184.0" mnemonicParsing="false" selected="true">
+         <toggleGroup>
+            <ToggleGroup fx:id="toggleType" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="radButtLR" layoutX="191.0" layoutY="184.0" mnemonicParsing="false" toggleGroup="$toggleType" />
+      <Label fx:id="typeLabel" layoutX="57.0" layoutY="158.0" prefHeight="17.0" prefWidth="395.0" text="Choose which type of vectors you want to calculate" />
+      <Label layoutX="79.0" layoutY="184.0" prefHeight="17.0" prefWidth="91.0" styleClass="checkboxLabels" text="All keys" />
+      <Label layoutX="214.0" layoutY="184.0" prefHeight="17.0" prefWidth="149.0" styleClass="checkboxLabels" text="Left and right side" />
+      <Label fx:id="amountLabel" layoutX="57.0" layoutY="129.0" prefHeight="17.0" prefWidth="224.0" text="Amount of actions per vector" />
+      <TextField fx:id="actAmoField" layoutX="281.0" layoutY="125.0" prefHeight="25.0" prefWidth="139.0" promptText="Amount of actions" />
+   </children>
+</AnchorPane>
