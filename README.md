@@ -3,9 +3,36 @@
 Aplikacja desktopowa pozwalająca na utworzenie profilu biometrycznego. Owy profil składa się z cech biometrycznych wyznaczonych na podstawie wcześniej przygotowanych
 danych, które zawierają informacje o aktywności użytkownika związanej z wykorzystaniem klawiatury.
 
+---
 
+## O projekcie
 
+Aplikacja została zaprojektowana i zrealizowana w ramach pracy inżynierskiej, a następnie rozbudowana w trakcie pracy magisterskiej na Wydziale Nauk Ścisłych i Technicznych Uniwersytetu Śląskiego.
+Aplikacja przeznaczona jest dla osób wykonujących badania w dziedzinie analizy behawioralnej związanej z aktywnością użytkownika podczas pracy z komputerem.
+Główną aktywnością użytkownika uwzględnioną w niniejszej aplikacji jest dynamika pisania na klawiaturze KD (_ang._ Keystroke Dynamics).
+Aplikacja zawiera wszystkie potrzebne narzędzia do wykonania badania, a podzielone na podprogramy narzędzia można wykorzystywać niezależnie od siebie.
 
+---
+
+## Kluczowe funkcjonalności
+
+* **Filtrowanie (_ang._ Filtering):** pierwszy podprogram aplikacji umożliwiający zmianę dowolnych danych surowych na format kompatybilny z dalszymi podprogramami i przygotowanie tylko najpotrzebniejszych danych. Operacje, które obejmuje filtrowanie to:
+  * wczytanie danych surowych,
+  * odfiltrowanie danych niepotrzebnych,
+  * zmiana formatu danych,
+  * dodanie parametrów pomocniczych,
+  * zebranie statystyk danych surowych.
+
+* **Przetwarzanie (_ang._ Processing):** drugi podprogram aplikacji umożliwiający na wyliczenie zależności czasowych z wcześniej filtrowanych danych oraz przygotowanie ich do dalszej analizy. Operacje, które obejmuje przetwarzanie to:
+  * wyznaczanie zależności czasowych,
+  * dodanie znaczników pomocniczych,
+  * usunięcie elementów odstających.
+
+* **Obliczanie (_ang._ Calculating) - nowość z pracy magisterskiej:** trzeci podprogram aplikacji umożliwiający na obliczenie wektorów cech z wcześniej przygotowanych zależności czasowych. Operacje, które obejmuje obliczanie to:
+  * odseparowanie zależności czasowych klawiszy alfanumerycznych (założenie badań pracy magisterskiej),
+  * obliczenie wektorów cech na podstawie specjalnego algorytmu.
+
+---
 
 ## Licencja / License
 
