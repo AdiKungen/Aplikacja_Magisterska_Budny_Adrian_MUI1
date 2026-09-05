@@ -1,4 +1,5 @@
-# Aplikacja stworzona oraz rozwinięta w ramach pracy Inżynierskiej oraz Magisterskiej
+# Aplikacja do utworzenia profilu biometrycznego z cech wyznaczonych na podstawie aktywności użytkownika
+
 
 
 
