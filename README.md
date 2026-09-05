@@ -37,7 +37,20 @@ Aplikacja zawiera wszystkie potrzebne narzędzia do wykonania badania, a podziel
 ## Zrzuty ekranu
 
 ![Filtrowanie](docs/screenshots/filtering.png)
+
 *Rysunek 1: Widok główny podprogramu „Filtering”.*
+
+![Ustawianie](docs/screenshots/arrange.png)
+
+*Rysunek 2: Pop-up proszący o ustawienie parametrów w podprogramie „Filtering”.*
+
+![Przetwarzanie](docs/screenshots/processing.png)
+
+*Rysunek 3: Widok główny podprogramu „Processing”.*
+
+![Obliczanie](docs/screenshots/calculating.png)
+
+*Rysunek 4: Widok główny podprogramu „Calculating”.*
 
 ---
 
