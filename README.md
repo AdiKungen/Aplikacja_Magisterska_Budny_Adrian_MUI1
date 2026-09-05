@@ -34,6 +34,21 @@ Aplikacja zawiera wszystkie potrzebne narzędzia do wykonania badania, a podziel
 
 ---
 
+## Zrzuty ekranu
+
+![Filtrowanie](docs/screenshots/filtering.png)
+*Rysunek 1: Widok główny podprogramu „Filtering”.*
+
+---
+
+## Technologie i narzędzia
+
+* **Język:** Java 17
+* **Interfejs graficzny:** JavaFX 21 / Scene Builder / FXML / CSS
+* **Środowisko:** Eclipse IDE
+
+---
+
 ## Licencja / License
 
 **PL:**  
