@@ -16,13 +16,21 @@ Aplikacja zawierać będzie wszystkie potrzebne narzędzia do wykonania badania,
 
 ## Kluczowe funkcjonalności
 
-* **[Filtrowanie]:** pierwszy podprogram aplikacji umożliwiający zmianę dowolnych danych surowych na format kompatybilny z dalszymi podprogramami i przygotowanie tylko najpotrzebniejszych danych. Operacje, które obejmuje filtrowanie to:
+* **Filtrowanie (_ang._ Filtering):** pierwszy podprogram aplikacji umożliwiający zmianę dowolnych danych surowych na format kompatybilny z dalszymi podprogramami i przygotowanie tylko najpotrzebniejszych danych. Operacje, które obejmuje filtrowanie to:
   * wczytanie danych surowych,
   * odfiltrowanie danych niepotrzebnych,
   * zmiana formatu danych,
   * dodanie parametrów pomocniczych,
   * zebranie statystyk danych surowych.
 
+* **Przetwarzanie (_ang._ Processing):** drugi podprogram aplikacji umożliwiający na wyliczenie zależności czasowych z wcześniej filtrowanych danych oraz przygotowanie ich do dalszej analizy. Operacje, które obejmuje przetwarzanie to:
+ * wyznaczanie zależności czasowych,
+ * dodanie znaczników pomocniczych,
+ * usunięcie elementów odstających.
+
+* **Obliczanie (_ang._ Calculating) - nowość z pracy magisterskiej:** trzeci podprogram aplikacji umożliwiający na obliczenie wektorów cech z wcześniej przygotowanych zależności czasowych. Operacje, które obejmuje obliczanie to:
+ * odseparowanie zależności czasowych klawiszy alfanumerycznych (założenie badań pracy magisterskiej),
+ * obliczenie wektorów cech na podstawie specjalnego algorytmu.
 
 ---
 
