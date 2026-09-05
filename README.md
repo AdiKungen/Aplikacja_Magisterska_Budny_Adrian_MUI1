@@ -9,12 +9,22 @@ danych, które zawierają informacje o aktywności użytkownika związanej z wyk
 
 Aplikacja została zaprojektowana i zrealizowana w ramach pracy inżynierskiej, a następnie rozbudowana w trakcie pracy magisterskiej na Wydziale Nauk Ścisłych i Technicznych Uniwersytetu Śląskiego.
 Aplikacja przeznaczona jest dla osób wykonujących badania w dziedzinie analizy behawioralnej związanej z aktywnością użytkownika podczas pracy z komputerem.
-Główną aktywnością użytkownika uwzględnioną w niniejszej aplikacji jest dynamika pisania na klawiaturze KD (ang. Keystroke Dynamics).
+Główną aktywnością użytkownika uwzględnioną w niniejszej aplikacji jest dynamika pisania na klawiaturze KD (_ang._ Keystroke Dynamics).
 Aplikacja zawierać będzie wszystkie potrzebne narzędzia do wykonania badania, a podzielone na podprogramy narzędzia będzie można wykorzystywać niezależnie od siebie.
 
 ---
 
+## Kluczowe funkcjonalności
 
+* **[Filtrowanie]:** pierwszy podprogram aplikacji umożliwiający zmianę dowolnych danych surowych na format kompatybilny z dalszymi podprogramami i przygotowanie tylko najpotrzebniejszych danych. Operacje, które obejmuje filtrowanie to:
+  * wczytanie danych surowych,
+  * odfiltrowanie danych niepotrzebnych,
+  * zmiana formatu danych,
+  * dodanie parametrów pomocniczych,
+  * zebranie statystyk danych surowych.
+
+
+---
 
 ## Licencja / License
 
