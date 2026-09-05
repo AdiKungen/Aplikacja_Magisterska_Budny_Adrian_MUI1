@@ -24,13 +24,13 @@ Aplikacja zawierać będzie wszystkie potrzebne narzędzia do wykonania badania,
   * zebranie statystyk danych surowych.
 
 * **Przetwarzanie (_ang._ Processing):** drugi podprogram aplikacji umożliwiający na wyliczenie zależności czasowych z wcześniej filtrowanych danych oraz przygotowanie ich do dalszej analizy. Operacje, które obejmuje przetwarzanie to:
- * wyznaczanie zależności czasowych,
- * dodanie znaczników pomocniczych,
- * usunięcie elementów odstających.
+  * wyznaczanie zależności czasowych,
+  * dodanie znaczników pomocniczych,
+  * usunięcie elementów odstających.
 
 * **Obliczanie (_ang._ Calculating) - nowość z pracy magisterskiej:** trzeci podprogram aplikacji umożliwiający na obliczenie wektorów cech z wcześniej przygotowanych zależności czasowych. Operacje, które obejmuje obliczanie to:
- * odseparowanie zależności czasowych klawiszy alfanumerycznych (założenie badań pracy magisterskiej),
- * obliczenie wektorów cech na podstawie specjalnego algorytmu.
+  * odseparowanie zależności czasowych klawiszy alfanumerycznych (założenie badań pracy magisterskiej),
+  * obliczenie wektorów cech na podstawie specjalnego algorytmu.
 
 ---
 
