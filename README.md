@@ -1,6 +1,7 @@
 # Aplikacja do utworzenia profilu biometrycznego z cech wyznaczonych na podstawie aktywności użytkownika
 
-
+Aplikacja desktopowa pozwalająca na utworzenie profilu biometrycznego. Owy profil składa się z cech biometrycznych wyznaczonych na podstawie wcześniej przygotowanych
+danych, które zawierają informacje o aktywności użytkownika związanej z wykorzystaniem klawiatury.
 
 
 
