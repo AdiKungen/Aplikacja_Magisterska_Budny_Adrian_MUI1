@@ -10,9 +10,9 @@ danych, które zawierają informacje o aktywności użytkownika związanej z wyk
 Aplikacja została zaprojektowana i zrealizowana w ramach pracy inżynierskiej, a następnie rozbudowana w trakcie pracy magisterskiej na Wydziale Nauk Ścisłych i Technicznych Uniwersytetu Śląskiego.
 
 Aplikacja przeznaczona jest dla osób wykonujących badania w dziedzinie analizy behawioralnej związanej z aktywnością użytkownika podczas pracy z komputerem.
-Główną aktywnością użytkownika uwzględnioną w niniejszej aplikacji jest dynamika pisania na klawiaturze KD (_ang._ Keystroke Dynamics).
+Główną aktywnością użytkownika uwzględnioną w niniejszej aplikacji jest dynamika pisania na klawiaturze `KD` (_ang._ Keystroke Dynamics).
 Aplikacja stanowi solidną bazę do badań, które można przykładowo wykorzystać do stworzenia systemu bezpieczeństwa opartego na weryfikacji ciągłej.
-Taki system mógłby zablokować dostęp do komputera osobie nieuprawnionej, tylko na podstawie analizowania jej sposobu (dynamiki) pisania na klawiaturze (_ang._ Keystroke Dynamics Analysis).
+Taki system mógłby zablokować dostęp do komputera osobie nieuprawnionej, tylko na podstawie analizowania jej sposobu (dynamiki) pisania na klawiaturze `KDA` (_ang._ Keystroke Dynamics Analysis).
 
 Aplikacja zawiera wszystkie potrzebne narzędzia do wykonania badań, a podzielone na podprogramy narzędzia można wykorzystywać niezależnie od siebie.
 
