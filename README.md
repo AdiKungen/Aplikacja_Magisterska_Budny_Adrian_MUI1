@@ -78,6 +78,9 @@ Aplikacja zawiera wszystkie potrzebne narzędzia do wykonania badań, a podzielo
 
 ---
 
+## Instrukcja instalacji i uruchomienia
+
+---
 ## Licencja / License
 
 **PL:**  
