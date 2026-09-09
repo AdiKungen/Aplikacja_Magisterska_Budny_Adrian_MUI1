@@ -8,10 +8,12 @@ danych, które zawierają informacje o aktywności użytkownika związanej z wyk
 ## O projekcie
 
 Aplikacja została zaprojektowana i zrealizowana w ramach pracy inżynierskiej, a następnie rozbudowana w trakcie pracy magisterskiej na Wydziale Nauk Ścisłych i Technicznych Uniwersytetu Śląskiego.
+
 Aplikacja przeznaczona jest dla osób wykonujących badania w dziedzinie analizy behawioralnej związanej z aktywnością użytkownika podczas pracy z komputerem.
 Główną aktywnością użytkownika uwzględnioną w niniejszej aplikacji jest dynamika pisania na klawiaturze KD (_ang._ Keystroke Dynamics).
 Aplikacja stanowi solidną bazę do badań, które można przykładowo wykorzystać do stworzenia systemu bezpieczeństwa opartego na weryfikacji ciągłej.
 Taki system mógłby zablokować dostęp do komputera osobie nieuprawnionej, tylko na podstawie analizowania jej sposobu (dynamiki) pisania na klawiaturze (_ang._ Keystroke Dynamics Analysis).
+
 Aplikacja zawiera wszystkie potrzebne narzędzia do wykonania badań, a podzielone na podprogramy narzędzia można wykorzystywać niezależnie od siebie.
 
 ---
@@ -19,11 +21,11 @@ Aplikacja zawiera wszystkie potrzebne narzędzia do wykonania badań, a podzielo
 ## Kluczowe funkcjonalności
 
 * **Filtrowanie (_ang._ Filtering):** pierwszy podprogram aplikacji umożliwiający zmianę dowolnych danych surowych na format kompatybilny z dalszymi podprogramami i przygotowanie tylko najpotrzebniejszych informacji. Operacje, które obejmuje filtrowanie to:
-  * wczytanie danych surowych,
+  * wczytanie danych surowych (pliki tekstowe txt/csv),
   * odfiltrowanie danych niepotrzebnych,
-  * zmiana formatu danych,
+  * zmiana formatu danych (np. dostosowanie kolejności oraz zmiana oznaczenia pewnych parametrów),
   * dodanie parametrów pomocniczych,
-  * zebranie statystyk danych surowych.
+  * zebranie statystyk danych surowych (np. ilości wystąpień klawiszy, identyfikatory klawiszy, wprowadzone zmiany).
 
 * **Przetwarzanie (_ang._ Processing):** drugi podprogram aplikacji umożliwiający wyliczenie zależności czasowych z wcześniej filtrowanych danych oraz przygotowanie ich do dalszej analizy. Operacje, które obejmuje przetwarzanie to:
   * wyznaczanie zależności czasowych,
