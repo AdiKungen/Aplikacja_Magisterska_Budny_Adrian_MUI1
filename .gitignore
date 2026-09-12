@@ -1,0 +1,15 @@
+bin/
+*.class
+
+.settings/
+.classpath
+.project
+build.fxbuild
+
+.idea/
+*.iml
+.vscode/
+
+*.log
+.DS_Store
+Thumbs.db
