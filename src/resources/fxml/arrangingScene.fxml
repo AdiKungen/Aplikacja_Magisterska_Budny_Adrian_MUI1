@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ArrangingController">
+   <children>
+      <ChoiceBox fx:id="choiceId" layoutX="22.0" layoutY="107.0" prefHeight="25.0" prefWidth="106.0" />
+      <ChoiceBox fx:id="choiceTime" layoutX="147.0" layoutY="107.0" prefHeight="25.0" prefWidth="106.0" />
+      <ChoiceBox fx:id="choiceType" layoutX="271.0" layoutY="107.0" prefHeight="25.0" prefWidth="106.0" />
+      <Label fx:id="shuffleLabel" alignment="CENTER" layoutX="10.0" layoutY="45.0" prefHeight="40.0" prefWidth="383.0" text="Arrange parameters in the folowing order:" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="shuffleButton" layoutX="298.0" layoutY="145.0" mnemonicParsing="false" onAction="#submit" prefHeight="25.0" prefWidth="79.0" text="Filter" />
+      <Label fx:id="lineLabel" alignment="CENTER" layoutX="10.0" layoutY="20.0" prefHeight="25.0" prefWidth="383.0" textAlignment="CENTER" />
+      <Label fx:id="shuffleLabel1" alignment="CENTER" layoutX="10.0" layoutY="65.0" prefHeight="40.0" prefWidth="383.0" text="Type, Timestamp, Id" textAlignment="CENTER" wrapText="true" />
+   </children>
+</AnchorPane>

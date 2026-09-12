@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="scenePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="275.0" prefWidth="595.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FilteringController">
+   <children>
+      <Label alignment="CENTER" layoutY="10.0" prefHeight="34.0" prefWidth="595.0" text="Filter user activity data" />
+      <Button layoutX="439.0" layoutY="235.0" mnemonicParsing="false" onAction="#assign" prefHeight="25.0" prefWidth="100.0" text="Start" />
+      <Label fx:id="typeLabel" layoutX="32.0" layoutY="110.0" prefHeight="17.0" prefWidth="150.0" text="Separator type" />
+      <TextField fx:id="typeField" layoutX="197.0" layoutY="106.0" prefHeight="25.0" prefWidth="99.0" />
+      <TextField fx:id="directoryTextField" editable="false" layoutX="32.0" layoutY="70.0" prefHeight="25.0" prefWidth="429.0" />
+      <Button layoutX="468.0" layoutY="70.0" mnemonicParsing="false" onAction="#chooseDir" prefHeight="25.0" prefWidth="108.0" text="Choose" />
+      <Label fx:id="chooseLabel" layoutX="32.0" layoutY="46.0" prefHeight="17.0" prefWidth="395.0" text="Directory from which you want to filter data" />
+      <CheckBox fx:id="keyUpChck" layoutX="306.0" layoutY="145.0" mnemonicParsing="false" />
+      <CheckBox fx:id="keyDownChck" layoutX="32.0" layoutY="145.0" mnemonicParsing="false" />
+      <TextField fx:id="keyUpText" disable="true" layoutX="469.0" layoutY="141.0" prefHeight="25.0" prefWidth="108.0" text="k" />
+      <TextField fx:id="keyDownText" disable="true" layoutX="197.0" layoutY="141.0" prefHeight="25.0" prefWidth="99.0" text="K" />
+      <Label fx:id="checkboxLabel" layoutX="52.0" layoutY="145.0" prefHeight="17.0" prefWidth="139.0" styleClass="checkboxLabels" text="Key pressed" />
+      <Label fx:id="checkboxLabel1" layoutX="326.0" layoutY="145.0" prefHeight="17.0" prefWidth="157.0" styleClass="checkboxLabels" text="Key released" />
+      <CheckBox fx:id="descParaChck" layoutX="32.0" layoutY="173.0" mnemonicParsing="false" />
+      <CheckBox fx:id="nameParaChck" layoutX="306.0" layoutY="173.0" mnemonicParsing="false" />
+      <Label layoutX="52.0" layoutY="173.0" prefHeight="17.0" prefWidth="246.0" styleClass="checkboxLabels" text="Description parameter" />
+      <Label layoutX="326.0" layoutY="173.0" prefHeight="17.0" prefWidth="254.0" styleClass="checkboxLabels" text="Name parameter" />
+      <CheckBox fx:id="mainFileChck" layoutX="32.0" layoutY="203.0" mnemonicParsing="false" />
+      <Label layoutX="52.0" layoutY="203.0" prefHeight="17.0" prefWidth="246.0" styleClass="checkboxLabels" text="File with filter statistics" />
+      <CheckBox fx:id="descFileChck" layoutX="306.0" layoutY="203.0" mnemonicParsing="false" />
+      <Label layoutX="326.0" layoutY="203.0" prefHeight="17.0" prefWidth="246.0" styleClass="checkboxLabels" text="File with directory statistics" />
+   </children>
+</AnchorPane>
