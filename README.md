@@ -21,7 +21,7 @@ Aplikacja zawiera wszystkie potrzebne narzędzia do wykonania badań, a podzielo
 ## Kluczowe funkcjonalności
 
 * **Filtrowanie (_ang._ Filtering):** pierwszy podprogram aplikacji umożliwiający zmianę dowolnych danych surowych na format kompatybilny z dalszymi podprogramami i przygotowanie tylko najpotrzebniejszych informacji. Operacje, które obejmuje filtrowanie to:
-  * wczytanie danych surowych (pliki tekstowe txt/csv),
+  * wczytanie danych surowych (np. pliki tekstowe txt/csv),
   * odfiltrowanie danych niepotrzebnych,
   * zmiana formatu danych (np. dostosowanie kolejności oraz zmiana oznaczenia pewnych parametrów),
   * dodanie parametrów pomocniczych,
