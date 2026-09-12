@@ -82,7 +82,29 @@ Aplikacja zawiera wszystkie potrzebne narzędzia do wykonania badań, a podzielo
 
 ## Instrukcja instalacji i uruchomienia
 
+### Wymagania
+* Java JDK w wersji 17
+* JavaFX SDK w wersji 21
+
+### Instrukcja (dla Eclipse IDE)
+1. Sklonuj repozytorium:
+   ```bash
+   git clone https://github.com/AdiKungen/Aplikacja_Magisterska_Budny_Adrian_MUI1.git
+   ```
+
+2. Zaimportuj projekt do Eclipse:
+   * Wybierz `File` -> `Import...` -> `General` -> `Projects from Folder or Archive`.
+   * Wskaż pobrany folder z projektem.
+
+3. Skonfiguruj JavaFX w projekcie:
+   * Kliknij prawym przyciskiem myszy na projekt -> `Build Path` -> `Configure Build Path....`
+   * Przejdź do zakładki `Libraries`, zaznacz `Modulepath`, kliknij `Add External JARs...` i wskaż wszystkie pliki `.jar` z folderu `lib` pobranego JavaFX SDK.
+
+4. Uruchomienie:
+   * Kliknij prawym przyciskiem myszy na `Main.java` w pakiecie application -> `Run As` -> `Java Application`.
+
 ---
+
 ## Licencja / License
 
 **PL:**  
