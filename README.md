@@ -85,8 +85,10 @@ Aplikacja zawiera wszystkie potrzebne narzędzia do wykonania badań, a podzielo
 ### Wymagania
 * Java JDK w wersji 17
 * JavaFX SDK w wersji 21
+* Środowisko: Eclipse IDE for Java Developers lub inne dowolne IDE
 
 ### Instrukcja (dla Eclipse IDE)
+
 1. Sklonuj repozytorium:
    ```bash
    git clone https://github.com/AdiKungen/Aplikacja_Magisterska_Budny_Adrian_MUI1.git
