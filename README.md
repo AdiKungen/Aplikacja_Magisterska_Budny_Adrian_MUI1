@@ -105,6 +105,16 @@ Aplikacja zawiera wszystkie potrzebne narzędzia do wykonania badań, a podzielo
 4. Uruchomienie:
    * Kliknij prawym przyciskiem myszy na `Main.java` w pakiecie application -> `Run As` -> `Java Application`.
 
+### Uwaga dotycząca danych testowych:
+
+Aplikacja została stworzona do badań nad biometrią behawioralną skupiającą się na wykorzystaniu przez użytkownika klawiatury (`KDA`). Zbiory danych wykorzystywane do badań nad `KDA` zawierają dane wrażliwe (historia klawiszy oraz czasu ich wciśnięcia/puszczenia), więc zostają udostępnione tylko w celach badawczych często pod bardzo rygorystycznymi klauzulami poufności. Z tego względu, oryginalne zbiory badawcze nie zostały upublicznione. Do celów demonstracyjnych dołączono w folderze `demo-data` syntetycznie wygenerowane zbiory testowe `001_sample_kda_dataset_Shift.csv` oraz `002_sample_kda_dataset_Caps.csv` o podobnej strukturze do oryginalnych zbiorów badawczych.
+
+Obydwa zbiory (`001_sample_kda_dataset_Shift.csv`, `002_sample_kda_dataset_Caps.csv`) zawierają syntetyczne dane telemetryczne KDA symulujące przepisywanie tekstu "Badania Dynamiki Pisania Na Klawiaturze KDA 2026". Dane wzbogacono o przykładowy szum (m.in. współrzędne kursora myszy), co pozwala zaprezentować moduł wstępnego czyszczenia i walidacji danych.
+
+Pliki odzwierciedlają dwa odmienne profile behawioralne oparte na nawykach wprowadzania wielkich liter (z probabilistyczną szansą 85% na wybór preferowanego klawisza i 15% na odstępstwo od reguły):
+* `001_sample_kda_dataset_Shift.csv`: profil użytkownika "001" faworyzującego kombinację z klawiszem `Shift`.
+* `002_sample_kda_dataset_Caps.csv`: profil użytkownika "002" preferującego przełączanie trybu za pomocą `Caps Lock`.
+
 ---
 
 ## Podziękowania / Credits
