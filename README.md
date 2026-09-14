@@ -49,7 +49,7 @@ Aplikacja zawiera wszystkie potrzebne narzędzia do wykonania badań, a podzielo
 <br>
 
 <p align="center">
-  <img src="docs/screenshots/arrange.png" alt="Widok Ustawiania">
+  <img src="docs/screenshots/arranging.png" alt="Widok Ustawiania">
   <br>
   <em>Rysunek 2: Pop-up wyświetlający prośbę o ustawienie parametrów w podprogramie „Filtering”.</em>
 </p>
