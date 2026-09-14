@@ -107,6 +107,12 @@ Aplikacja zawiera wszystkie potrzebne narzędzia do wykonania badań, a podzielo
 
 ---
 
+## Podziękowania / Credits
+
+* **Ikona aplikacji (`keyboard`):** pochodzi z biblioteki [Material Symbols & Icons](https://fonts.google.com/icons?selected=Material+Symbols+Outlined:keyboard:FILL@0;wght@400;GRAD@0;opsz@48&icon.query=keyboard&icon.size=225&icon.color=%230000F5) od Google, udostępnionej na licencji [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
+---
+
 ## Licencja / License
 
 **PL:**  
