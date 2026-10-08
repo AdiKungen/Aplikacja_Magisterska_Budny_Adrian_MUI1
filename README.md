@@ -7,7 +7,7 @@ danych, które zawierają informacje o aktywności użytkownika związanej z wyk
 
 ## Demo / Prezentacja działania
 
-Poniższa animacja przedstawia pełny przepływ pracy w aplikacji (*pipeline* analityczny): od wczytania surowych danych telemetrycznych ze zbioru demonstracyjnego, przez wstępne czyszczenie szumu pomiarowego, obliczanie zależności czasowych aż po wygenerowanie profilu biometrycznego użytkownika. Dodatkowo w trakcie prezentacji celowo wywoływane są typowe błędy użytkownika (np. zamknięcie pop-upa, brakujące parametry), aby zademonstrować wbudowane mechanizmy walidacji danych i odporność aplikacji na niepoprawne akcje.
+Poniższa animacja przedstawia pełny przepływ pracy w aplikacji (*pipeline analityczny*): od wczytania surowych danych telemetrycznych ze zbioru demonstracyjnego, przez wstępne czyszczenie szumu pomiarowego, obliczanie zależności czasowych aż po wygenerowanie profilu biometrycznego użytkownika. Dodatkowo w trakcie prezentacji celowo wywoływane są typowe błędy użytkownika (np. zamknięcie pop-upa, brakujące parametry), aby zademonstrować wbudowane mechanizmy walidacji danych i odporność aplikacji na niepoprawne akcje.
 
 <p align="center">
   <img src="docs/gifs/demo.gif" alt="Prezentacja działania aplikacji KDA" width="650">
